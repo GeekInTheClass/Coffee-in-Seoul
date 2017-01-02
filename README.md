@@ -1,7 +1,7 @@
 # Coffee-in-Seoul
 서울에 있는 커피가 맛있는 카페들을 소개합니다.
 
-1. relieve _ 이태원, 강남
+##< 스페셜티 커피 >
 
 ###1. relieve _ 이태원, 강남
 https://www.instagram.com/relievecoffee/
@@ -24,4 +24,5 @@ https://www.instagram.com/fritzcoffeecompany/
 한 번 마시면 지옥에 온 듯한 진한 맛을 느낄 수 있을 겁니다. 
 
 
-이 외에도, 자신이 잊지 못하는 커피를 파는 곳을 알려주세요.
+
+이 외에도, 자신이 잊지 못하는 커피를 파는 곳이 있다면 알려주세요.
