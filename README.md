@@ -12,3 +12,5 @@ https://www.instagram.com/fritzcoffeecompany/
 4. 헬카페 _ 이태원
 
 5. 나무사이로 _ 광화문
+
+자신이 잊지 못하는 커피를 파는 곳을 알려주세요.
