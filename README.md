@@ -12,6 +12,8 @@
 >###2. 프릳츠커피컴퍼니 _ 공덕
 >[프릳츠 인스타그램](https://www.instagram.com/fritzcoffeecompany/)
 >
+> <img src=http://cfile10.uf.tistory.com/image/26427F3753E96BAE36F98B>
+>
 >커피와 빵 조합을 좋아한다면 꼭 한번 가보세요. 커피도 빵도 추천합니다.
 >위치 : 서울 마포구 새창로2길 17
 >
