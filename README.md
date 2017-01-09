@@ -47,6 +47,26 @@
 > 한 층을 더 올라가면, 카페를 운영하는 이들의 본업인 예술 창작물을 배치해 둔 작은 전시공간도 있습니다.<br />
 
 
+###8. 겟썸커피 _ 송파, 신사, 강남점
+>유행을 선도하고 있는 카페입니다. 송파에 1호점이 생긴 이후 최근 강남점까지 생기면서 많은 사랑을 얻고 있어요! 평일에도 웨이팅이 있는 핫플레이스 입니다.
+><img src = http://postfiles11.naver.net/MjAxNjEyMTRfMjgw/MDAxNDgxNzA1NTkyNTMz.jD4EZRd672YCQSNumoz9m0ozNBWW4L-v5YgMASJJ7D0g.sS4A0n3UooirB5uqSGWP_SFKUzhgj2ykUyFIXcrNxawg.JPEG.mhanjo/IMG_5088.JPG?type=w966>
+###9. 카페 동경 _ 망원동
+>커피맛이 명품입니다. 인생커피를 여기서 찾았어요! 하지만 사람이 너무 많아서 가기가 힘듭니다.
+
+><img src = http://postfiles14.naver.net/20160127_141/mhanjo_1453850848623ekSxy_JPEG/NaverBlog_20160127_082727_49.jpg?type=w1>
+
+###10. 메뉴팩트 커피 로스터스 _ 연희동
+>핸드드립이 맛있는 카페에요! 많은 바리스타 분들이 커피를 내리고 있답니다.
+> <img src = http://postfiles8.naver.net/20160511_167/mhanjo_1462932622853yGDDu_JPEG/NaverBlog_20160511_111022_10.jpg?type=w1>
+
+><img src = http://postfiles3.naver.net/20160511_290/mhanjo_1462932624453TnBpT_JPEG/NaverBlog_20160511_111023_12.jpg?type=w1>
+
+
+###11. 프로퍼 커피 바 _ 방이동
+>커피도 커피지만 그 앞에 있는 수 많은 디저트들에 더 눈이 가는 카페입니다. 빵이 생각나서 찾아오게 되는거 같아요!
+><img src = http://postfiles16.naver.net/20160920_239/mhanjo_14743030715760k5qH_JPEG/IMG_5970.JPG?type=w966>
+
+
 
 이 외에도, 자신이 잊지 못하는 커피를 파는 곳이 있다면 알려주세요!
 
