@@ -90,6 +90,13 @@
                                 <rect key="frame" x="0.0" y="-74" width="375" height="525"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MDF-I5-ezA">
+                                <rect key="frame" x="0.0" y="-131" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="JnM-p8-cMx" kind="embed" id="m0a-8p-FY5"/>
+                                </connections>
+                            </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DEd-Xh-POq">
                                 <rect key="frame" x="16" y="359" width="343" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -115,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0d-XV-KuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8479" y="-797"/>
+            <point key="canvasLocation" x="8477.6000000000004" y="-797.45127436281871"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="SaQ-Nk-yEG">
@@ -364,24 +371,6 @@
             </objects>
             <point key="canvasLocation" x="9181.6000000000004" y="-797.45127436281871"/>
         </scene>
-        <!--Activity Scene-->
-        <scene sceneID="H2h-Ey-Qab">
-            <objects>
-                <viewController id="iIj-Qo-gGJ" customClass="ActivityScene" customModule="AAE" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Jds-f3-Ice"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ddd-da-ALi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Mgy-CZ-Jib">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F8p-H0-h4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7620" y="764"/>
-        </scene>
         <!--사진 앨범-->
         <scene sceneID="5E4-CN-mbq">
             <objects>
@@ -403,9 +392,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fy-dh-qfM">
-                                <rect key="frame" x="206" y="72" width="46" height="30"/>
+                                <rect key="frame" x="214" y="72" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="SkT-AE-wT9" kind="show" animates="NO" id="HaV-Ei-tbw"/>
                                 </connections>
@@ -438,9 +426,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVQ-fh-Jcb">
-                                <rect key="frame" x="202" y="448" width="46" height="30"/>
+                                <rect key="frame" x="210" y="448" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="H5v-1h-jN0" kind="show" animates="NO" id="MHg-Uc-42j"/>
                                 </connections>
@@ -546,9 +533,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cq-hI-5J1">
-                                <rect key="frame" x="195" y="449" width="46" height="30"/>
+                                <rect key="frame" x="203" y="449" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="xMq-a3-5zn" kind="show" animates="NO" id="hmc-sZ-bIn"/>
                                 </connections>
@@ -581,9 +567,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTY-8N-rmG">
-                                <rect key="frame" x="329" y="74" width="46" height="30"/>
+                                <rect key="frame" x="337" y="74" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="YmL-pr-j37" kind="show" animates="NO" id="cbf-77-Fg8"/>
                                 </connections>
@@ -707,15 +692,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="새 파일 2017-01-04 13.37.17_20170104133720" translatesAutoresizingMaskIntoConstraints="NO" id="74a-IW-YQp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="P20170112_171432000_7A13CC62-74E5-4981-B971-F97DC958352F" translatesAutoresizingMaskIntoConstraints="NO" id="3Wn-18-XT0">
+                                <rect key="frame" x="0.0" y="403" width="375" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0F-Kk-6NL">
-                                <rect key="frame" x="164" y="458" width="61" height="53"/>
+                                <rect key="frame" x="142" y="421" width="79" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="F7X-Of-W9K" kind="show" animates="NO" id="zKN-dM-YNT"/>
                                 </connections>
@@ -726,7 +709,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNd-QY-2Kv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13382" y="-1471"/>
+            <point key="canvasLocation" x="13381.6" y="-1471.2143928035982"/>
         </scene>
         <!--사진 앨범-->
         <scene sceneID="WiG-vN-ZvE">
@@ -776,9 +759,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYS-GW-cYK">
-                                <rect key="frame" x="203" y="72" width="46" height="30"/>
+                                <rect key="frame" x="211" y="72" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="O84-ya-keq" kind="show" animates="NO" id="8xF-Yh-WdS"/>
                                 </connections>
@@ -815,9 +797,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQA-4Q-0lf">
-                                <rect key="frame" x="201" y="72" width="46" height="30"/>
+                                <rect key="frame" x="209" y="72" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="8ZI-XJ-d3Z" kind="show" animates="NO" id="zr2-Ej-bLT"/>
                                 </connections>
@@ -850,9 +831,8 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z1-KU-vvh">
-                                <rect key="frame" x="329" y="72" width="46" height="30"/>
+                                <rect key="frame" x="337" y="72" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="X94-eV-T6H" kind="show" animates="NO" id="afE-cb-TcJ"/>
                                 </connections>
@@ -931,9 +911,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="새 파일 2017-01-04 13.37.17_20170104133720" translatesAutoresizingMaskIntoConstraints="NO" id="qml-Wo-fLh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="P20170112_171432000_7A13CC62-74E5-4981-B971-F97DC958352F" translatesAutoresizingMaskIntoConstraints="NO" id="vsC-sH-Ayd">
+                                <rect key="frame" x="0.0" y="403" width="375" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fr-n5-2tw">
                                 <rect key="frame" x="34" y="224" width="306" height="218"/>
@@ -1071,7 +1051,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcr-UG-Qy6">
                                 <rect key="frame" x="201" y="68" width="46" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="B1r-0j-KOF" kind="show" animates="NO" id="nd8-uu-j5s"/>
                                 </connections>
@@ -1222,14 +1201,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="Zod-fi-tVg">
                         <nil key="title"/>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2mG-cO-lPR">
-                            <rect key="frame" x="113" y="7" width="150" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
-                            <connections>
-                                <segue destination="iIj-Qo-gGJ" kind="show" id="vso-ib-vtl"/>
-                            </connections>
-                        </button>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pi9-M5-wbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1249,6 +1220,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHC-mI-ZU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Stop Motion Scene-->
+        <scene sceneID="6UA-7N-noq">
+            <objects>
+                <viewController id="JnM-p8-cMx" customClass="StopMotionScene" customModule="AAE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HMB-bk-EUI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                            <real key="value" value="0.20000000000000001"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imageBaseName" value="sc"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ef8-nR-z0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8478" y="214"/>
+        </scene>
     </scenes>
     <resources>
         <image name="P20170112_124742000_D86DF809-99C7-41D3-A225-A879B5934F77" width="375" height="667"/>
@@ -1258,6 +1250,7 @@
         <image name="P20170112_140257000_C0D98E4C-E600-4705-99F6-DA2CE30983F2" width="375" height="667"/>
         <image name="P20170112_140307000_6D6C84EF-F0FA-45AA-8B0A-6EF0BEEA88B2" width="375" height="667"/>
         <image name="P20170112_171415000_B7FB8938-AF0A-4DB3-AFCA-BEB83F383401" width="335" height="241"/>
+        <image name="P20170112_171432000_7A13CC62-74E5-4981-B971-F97DC958352F" width="372" height="257"/>
         <image name="새 파일 2017-01-03 17.19.03_20170103171918" width="355" height="652"/>
         <image name="새 파일 2017-01-04 13.37.17_20170104133720" width="362" height="642"/>
         <image name="스크린샷 2017-01-06 오후 1.59.30" width="168" height="293"/>
@@ -1267,6 +1260,6 @@
         <image name="스크린샷 2017-01-12 오후 5.22.39" width="215" height="284"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GcO-eh-mkL"/>
+        <segue reference="nKC-Ml-9Yb"/>
     </inferredMetricsTieBreakers>
 </document>
